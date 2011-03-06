@@ -64,7 +64,7 @@ a:hover {
 #left_header { 
     float:left;
     width:670px;
-   background:#f0f0ff;
+    background:#f0f0ff;
 
    -moz-border-radius: 15px;
    -khtml-border-radius: 15px;   
@@ -99,34 +99,43 @@ a:hover {
 
 #blog_title {
     float:left;
-    width:560px;
+    /*width:560px;*/
     margin:10px 15px 10px 15px ;
     display: inline;
 }
 
 
 
-#rsslink {
+#rsslink,
+#emaillink, 
+#facebooklink {
     float:right;
-    width:60px;
-    height:30px;
-    margin:10px 15px 0 0;
+    width:32px;
+    height:32px;
+    margin:11px 15px 0 0;
     display: inline;
 }
 
 
 #rsslink a {
     display:block;
-    width:59px;
-    height:22px;
-    background:url(img/rss_sprite.gif) top;
+    width:32px;
+    height:32px;
+    background:url(img/rss_32.png);
 }
 
+#emaillink a {
+    display:block;
+    width:32px;
+    height:32px;
+    background:url(img/email_32.png);
+}
 
-#rsslink a:hover {
-    width:59px;
-    height:22px;
-    background:url(img/rss_sprite.gif) bottom;
+#facebooklink a {
+    display:block;
+    width:32px;
+    height:32px;
+    background:url(img/facebook_32.png);
 }
 
 

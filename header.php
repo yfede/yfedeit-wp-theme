@@ -41,7 +41,9 @@
 
 	<!-- Header -->
 	<div id="left_header">
+		<div id="emaillink"><a href="mailto:<?php bloginfo('admin_email'); ?>"></a></div>
 		<div id="rsslink"><a href="<?php bloginfo('rss2_url'); ?>"></a></div>
+		<div id="facebooklink"><a href="http://www.facebook.com/yfede.it"></a></div>
 		<div id="blog_title">
 			<h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
 			<h2><?php bloginfo('description'); ?></h2>
