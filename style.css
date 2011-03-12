@@ -66,16 +66,17 @@ a:hover {
     width:670px;
     background:#f0f0ff;
 
-   -moz-border-radius: 15px;
-   -khtml-border-radius: 15px;   
+    /*
+    -moz-border-radius: 15px;
+    -khtml-border-radius: 15px;   
     -webkit-border-radius: 15px;
-   border-radius: 15px;
-
+    border-radius: 15px;
+    */
    
-    -moz-box-shadow: inset 0 0 8px #000/*, 0 0 2px #222*/;
-    -khtml-box-shadow: inset 0 0 8px #000/*, 0 0 2px #222*/;
-    -webkit-box-shadow: inset 0 0 8px #000/*, 0 0 2px #222*/;
-    box-shadow: inset 0 0 8px #000/*, 0 0 2px #222*/;
+    -moz-box-shadow: inset 0 0 8px #000;
+    -khtml-box-shadow: inset 0 0 8px #000;
+    -webkit-box-shadow: inset 0 0 8px #000;
+    box-shadow: inset 0 0 8px #000;
 }
 
 
@@ -154,15 +155,17 @@ a:hover {
     margin:5px 0px; padding:10px 15px; width:640px;
     background: #f0f0ff;
 
-   -moz-border-radius: 15px;
-   -khtml-border-radius: 15px;   
+    /*
+    -moz-border-radius: 15px;
+    -khtml-border-radius: 15px;   
     -webkit-border-radius: 15px;
     border-radius: 15px;
+    */
 
-    -moz-box-shadow: inset 0 0 10px #000, 0 0 2px #222;
-    -khtml-box-shadow: inset 0 0 10px #000, 0 0 2px #222;
-    -webkit-box-shadow: inset 0 0 10px #000, 0 0 2px #222;
-    box-shadow: inset 0 0 10px #000, 0 0 2px #222;
+    -moz-box-shadow: inset 0 0 10px #000;
+    -khtml-box-shadow: inset 0 0 10px #000;
+    -webkit-box-shadow: inset 0 0 10px #000;
+    box-shadow: inset 0 0 10px #000;
 }
 
 
@@ -288,15 +291,17 @@ a:hover {
     width: 230px;
     background:#f0f0ff;
 
+    /*
     -moz-border-radius: 15px;
     -khtml-border-radius: 15px;   
     -webkit-border-radius: 15px;
     border-radius: 15px;
+    */
 
-    -moz-box-shadow: inset 0 0 8px #000, 0 0 2px #222;
-    -khtml-box-shadow: inset 0 0 8px #000, 0 0 2px #222;
-    -webkit-box-shadow: inset 0 0 8px #000, 0 0 2px #222;
-    box-shadow: inset 0 0 8px #000, 0 0 2px #222;
+    -moz-box-shadow: inset 0 0 8px #000;
+    -khtml-box-shadow: inset 0 0 8px #000;
+    -webkit-box-shadow: inset 0 0 8px #000;
+    box-shadow: inset 0 0 8px #000;
 }
 
 
@@ -641,15 +646,17 @@ li#display_info p {
     display: inline;
     background:#f0f0ff;
 
+    /*
     -moz-border-radius: 15px;
     -khtml-border-radius: 15px;   
     -webkit-border-radius: 15px;
     border-radius: 15px;
+    */
 
-    -moz-box-shadow: inset 0 0 8px #000/*, 0 0 2px #222*/;
-    -khtml-box-shadow: inset 0 0 8px #000/*, 0 0 2px #222*/;
-    -webkit-box-shadow: inset 0 0 8px #000/*, 0 0 2px #222*/;
-    box-shadow: inset 0 0 8px #000/*, 0 0 2px #222*/;
+    -moz-box-shadow: inset 0 0 8px #000;
+    -khtml-box-shadow: inset 0 0 8px #000;
+    -webkit-box-shadow: inset 0 0 8px #000;
+    box-shadow: inset 0 0 8px #000;
 }
 
 
