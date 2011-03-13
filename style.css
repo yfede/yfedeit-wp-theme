@@ -488,7 +488,7 @@ li#display_info p {
     float:left;
     width:200px;
     height:29px;
-    background:url('img/search_bg.gif') no-repeat;
+    /*background:url('img/search_bg.gif') no-repeat;*/
     margin:15px 0 20px 20px !important;
     padding:0 !important;
     display: inline;
@@ -500,32 +500,28 @@ li#display_info p {
 }
 
 #sidebar_search #s {
-    border:1px solid white;
-    background:none;
-    width:156px;
+    border:1px solid black;
+    background:white;
+    width:133px;
     height:22px;
     float:left;
-    color:#fff;
-    padding:4px 0 0 5px;
-    margin:2px 0 0 8px;
+    color:black;
+    padding:0 0 0 5px;
+    margin:2px 0 0 0;
     font-size:12px;
-    font-weight:bold;
     display: inline;
-    border:0
 }
 
 #sidebar_search #searchsubmit {
-    width:16px;
-    height:15px;
-    margin:7px 0 0 3px;
+    border:1px solid black;
+    background:#f0f0ff;
+    width:50px;
+    height:24px;
+    margin:2px 0 0 5px;
     padding:0;
     float:left;
     display: inline;
-    font-size:1px;
-}
-
-#sidebar_search input#s:focus {
-    outline-width:0;
+    font-size:12px;
 }
 
 

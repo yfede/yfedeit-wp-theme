@@ -2,7 +2,7 @@
 			<form id="searchform" method="get" action="<?php bloginfo('home'); ?>">
 			<div>
 			<input type="text" name="s" id="s" />
-			<input type="image" src="<?php bloginfo('template_directory'); ?>/img/search_btn.gif" id="searchsubmit" value="Search" />
+			<input type="submit" id="searchsubmit" value="Cerca" />
 			</div>
 			</form>
 		</div>
