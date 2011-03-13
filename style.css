@@ -674,11 +674,12 @@ a#homelink:hover { }
 #dropmenu ul a {
     border-left:1px solid #595f68;
     border-right:1px solid #595f68;
-} 
+}
 
 #dropmenu li ul {
     border-top:1px solid #595f68;
     border-bottom:1px solid #595f68;
+    background:#f0f0ff;
     width:167px;
 } 
 
