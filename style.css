@@ -598,34 +598,6 @@ li#display_info p {
     padding:0 0 15px 0;
 }
 
-#bottom_footer #credit {
-    font-size:10px;
-    float:left;
-    color:#344a63;
-    clear:left;
-    margin-top:2px;
-}
-
-#bottom_footer #credit h1 {
-    margin:0;
-    padding:0;
-    font-size:inherit;
-    font-weight:normal;
-    display:inline;
-    font-size:10px;
-}
-
-#bottom_footer #credit span {
-    display: inline;
-    font-weight:normal;
-    color:#0f2a46;
-    padding-left:10px;
-}
-
-#bottom_footer #credit span strong {
-    font-weight:normal
-}
-
 
 /* TOP MENU */
 

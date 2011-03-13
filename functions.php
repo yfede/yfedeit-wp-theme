@@ -146,7 +146,6 @@ function pro_footer() { ?>
 
 	<div id="bottom_footer">
 		<div id="copyright">&copy; <?php echo date("Y"); ?> <?php bloginfo('name'); ?></div>
-		<div id="credit">proSlate Theme by <a href="http://www.prowpthemes.net">Pro WP Themes</a></div>
 	</div>
 
 
