@@ -650,7 +650,7 @@ a#homelink:hover { }
     position:relative;
     line-height:20px;
     z-index:300;
-    font-weight:bold;
+    font-weight:normal;
     position:absolute;
     display:none;
     top:28px;
