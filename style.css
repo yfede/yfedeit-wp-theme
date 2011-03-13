@@ -594,7 +594,7 @@ li#display_info p {
 #bottom_footer #copyright {
     font-size:10px;
     float:left;
-    color:#c7ced7;
+    /*color:#c7ced7;*/
     padding:0 0 15px 0;
 }
 
