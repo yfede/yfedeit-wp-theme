@@ -13,16 +13,7 @@
 
 
 				<div class="post_header">
-					<div class="post_header_left">
-						<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-						<div class="post_info"><small><?php edit_post_link('(Edit)', '', ' - '); ?><?php the_time('F jS, Y') ?> <!-- by <?php the_author() ?> --> Posted in <?php the_category(', ') ?></small></div>
-					</div>
-
-
-					<div class="post_header_right">
-						<div class="post_date"><?php the_time('M') ?>, <?php the_time('d') ?> 20<?php the_time('y') ?></div>
-						<div class="post_comment_count"><?php comments_popup_link('No Comments &#187;', '<div class="comment_ico"></div> 1 Comment &#187;', '<div class="comment_ico"></div> % Comments &#187;'); ?></div>
-					</div>
+                    <h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 				</div><!-- End post_header -->
 
 
@@ -35,8 +26,8 @@
 
 				
 				<div class="post_footer">
+					<small><?php edit_post_link('(Edit)', '', ' - '); ?>Posted on <?php the_time('F jS, Y') ?> <!-- by <?php the_author() ?> --> in <?php the_category(', ') ?>. <?php comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?></small>
 					<?php the_tags('<div class="post_tags"><div class="tags_icon"></div>', ', ', '</div>'); ?>
-
 				</div><!-- end post_footer -->
 
 
